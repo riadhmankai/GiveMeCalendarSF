@@ -1,0 +1,5 @@
+<aura:component implements="flexipage:availableForAllPageTypes" access="global">
+	<aura:handler name="init" action="{!c.doInit}" value="{!this}" />
+	<aura:attribute name="hours" type="String[]" 
+		default="['08:00', '09:00', '10:00', '11:00', '12:00', '13:00', '14:00', '15:00', '16:00', '17:00', '18:00']" />
+</aura:component>	
